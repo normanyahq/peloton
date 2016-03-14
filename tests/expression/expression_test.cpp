@@ -473,7 +473,7 @@ TEST_F(ExpressionTest, UnaryMinus) {
   expression::TupleValueExpression *tup_val_exp_int =
       new expression::TupleValueExpression(0, 0);
   expression::TupleValueExpression *tup_val_exp_double =
-      new expression::TupleValueExpression(0, 0);
+      new expression::TupleValueExpression(0, 1);
 
   // TUPLE
   expression::OperatorUnaryMinusExpression *unary_minus_int =
